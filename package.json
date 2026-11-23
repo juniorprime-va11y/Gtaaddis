@@ -1,0 +1,30 @@
+{
+  "name": "gta-addis",
+  "version": "0.1.0",
+  "description": "GTA Addis: Southside Stories - M1 Vertical Slice",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juniorprime-va11y/Gtaaddis.git"
+  },
+  "keywords": ["three.js", "game", "addis", "ethiopia"],
+  "author": "Project Addis Council",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/three": "^0.170.0",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11",
+    "vitest": "^2.1.5"
+  },
+  "dependencies": {
+    "three": "^0.170.0"
+  }
+}
